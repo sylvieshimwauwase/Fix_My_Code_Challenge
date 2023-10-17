@@ -8,7 +8,7 @@ class Square():
     - height: height of square
     - width: width of square
     """
-    
+
     def __init__(self, width=0, height=0):
         """
         Initializing square values
@@ -43,6 +43,7 @@ class Square():
         Returning string representation
         """
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 
